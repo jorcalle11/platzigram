@@ -1,0 +1,28 @@
+{
+  "name": "platzigram-db",
+  "version": "1.0.0",
+  "description": "Platzigram database client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && jest"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:jorcalle11/platzigram-db.git"
+  },
+  "bugs": {
+    "url": "git+ssh://git@github.com:jorcalle11/platzigram-db.git/issues"
+  },
+  "author": "Jorge Calle <jorcalle11@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "chai": "^4.0.2",
+    "jest": "^20.0.4",
+    "standard": "^10.0.2"
+  }
+}
